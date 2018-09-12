@@ -10,7 +10,7 @@ SUBJ=`echo "$LINE" | cut -f1 -d","`
 SESS=`echo "$LINE" | cut -f2 -d","`
 TYPE=`echo "$LINE" | cut -f3 -d","`
 
-echo ${SUBJ} ${SESS} ${TYPE} 
-${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}
+echo ${SUBJ} ${SESS} ${TYPE}
+echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}" | qsub -q long.q
 
 done < $1
