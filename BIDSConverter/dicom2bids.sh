@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#using nipy/heudiconv which was pulled as latest on 2018-SEP-11
 
 BIDS=/analysis/BIDS
 MY_PATH="`dirname \"$0\"`"
