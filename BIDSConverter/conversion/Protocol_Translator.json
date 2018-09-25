@@ -133,6 +133,11 @@
         "func",
         "task-rest_run-01_asl",
         "UNASSIGNED"
+    ],    
+    "perf_color_map":[
+       "EXCLUDE_BIDS_Directory",
+       "EXCLUDE_BIDS_Name",
+       "UNASSIGNED"
     ],
     "SpinEchoFieldMap_PA":[
         "fmap",
