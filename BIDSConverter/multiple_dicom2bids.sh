@@ -11,6 +11,11 @@ SESS=`echo "$LINE" | cut -f2 -d","`
 TYPE=`echo "$LINE" | cut -f3 -d","`
 
 echo ${SUBJ} ${SESS} ${TYPE}
-echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}" | qsub -q long.q
 
+if [ -z "$SGE_ROOT" ]
+then
+     ${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}
+else
+	echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}" | qsub -q long.q
+fi
 done < $1
