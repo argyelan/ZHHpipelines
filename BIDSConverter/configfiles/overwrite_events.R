@@ -11,7 +11,7 @@
   inp$V3[which(inp$V3==1)]<-'2-back'
   #print(subject)
   #print(session)
-  tsv.files<-list.files(paste0('/output/sub-',subject,'/ses-',session,'/func'),'task-nback_run-[0-9][0-9]_events.tsv',full.names = TRUE)
+  tsv.files<-list.files(paste0('/output/sub-',subject,'/ses-',session,'/func'),'task-nback_acq-AP_run-[0-9][0-9]_events.tsv',full.names = TRUE)
   for (i in tsv.files)
   {
       write.table( '\n', file=i, append = T, sep='\t',eol='', row.names = F, col.names = F, quote = F) #we need this to put the design in a new row
