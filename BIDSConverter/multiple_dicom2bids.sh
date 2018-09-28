@@ -12,10 +12,10 @@ TYPE=`echo "$LINE" | cut -f3 -d","`
 
 echo ${SUBJ} ${SESS} ${TYPE}
 
-if [ -z "$SGE_ROOT" ]
-then
-     ${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}
-else
-	echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}" | qsub -q long.q
-fi
-done < $1
+  if [ -z "$SGE_ROOT" ]; then
+     ${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE} $LINE </dev/null
+  else
+	 echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE}" | qsub -q long.q
+  fi
+
+done < ${1}

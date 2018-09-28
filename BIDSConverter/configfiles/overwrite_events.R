@@ -14,7 +14,7 @@
   tsv.files<-list.files(paste0('/output/sub-',subject,'/ses-',session,'/func'),'task-nback_acq-AP_run-[0-9][0-9]_events.tsv',full.names = TRUE)
   for (i in tsv.files)
   {
-      #write.table( '\n', file=i, append = T, sep='\t',eol='', row.names = F, col.names = F, quote = F) #we need this to put the design in a new row
+      write.table( paste('onset','duration','trial_type\n',sep='\t'), file=i, append = F, sep='\t',eol='', row.names = F, col.names = F, quote = F) #we need this to put the design in a new row
       write.table( inp,  file=i,  append = T, sep='\t', row.names=F, col.names=F,
                   quote = F)
   }
