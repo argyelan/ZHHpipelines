@@ -11,6 +11,5 @@ The preprocessing pipeline at ZHH
 
   info.csv: a file with 3 columns, first subject identifier, second: session identifier, third: study type
   Program goes over every line one by one and calls dicom2bids.sh
-  
-  
-  test...
+
+test 2 ....
