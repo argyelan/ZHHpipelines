@@ -142,6 +142,6 @@
     "SpinEchoFieldMap_PA":[
         "fmap",
         "dir-PA_run-01_epi",
-        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold"]
+        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold"]
     ]
 }

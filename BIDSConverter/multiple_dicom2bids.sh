@@ -9,12 +9,12 @@ while read LINE; do
 SUBJ=`echo "$LINE" | cut -f1 -d","`
 SESS=`echo "$LINE" | cut -f2 -d","`
 
-echo ${SUBJ} ${SESS} ${TYPE}
+echo ${SUBJ} ${SESS} 
 
   if [ -z "$SGE_ROOT" ]; then
-     ${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} ${TYPE} $LINE </dev/null
+     ${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS} $LINE </dev/null
   else
-	 echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS}" | qsub -q long.q
+	 echo "${MY_FULL_PATH}/dicom2bids.sh ${SUBJ} ${SESS}" | qsub -q long.q@crick
   fi
 
 done < ${1}
