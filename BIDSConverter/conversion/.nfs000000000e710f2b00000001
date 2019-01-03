@@ -102,7 +102,7 @@
     "SpinEchoFieldMap_AP":[
         "fmap",
         "dir-AP_run-01_epi",
-        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold"]
+        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold"]
     ],
     "BIAS_BC":[
         "EXCLUDE_BIDS_Directory",
@@ -142,16 +142,6 @@
     "SpinEchoFieldMap_PA":[
         "fmap",
         "dir-PA_run-01_epi",
-        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold"]
-    ],
-    "Auditory":[
-		"func",
-		"task-auditory_acq-AP_run-01_bold",
-		"UNASSIGNED"
-	],
-	"Auditory_SBRef":[
-		"func",
-        "task-auditory_acq-AP_run-01_sbref",
-        "UNASSIGNED"
-	]
+        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold"]
+    ]
 }
