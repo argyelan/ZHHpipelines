@@ -28,6 +28,9 @@ case "$study" in
 "Clozapine")
  docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
  ;;
+"SGAECT")
+ docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
+ ;;
 "Clozapine-ECT")
  docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
  ;;
