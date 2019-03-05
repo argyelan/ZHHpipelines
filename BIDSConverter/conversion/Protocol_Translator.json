@@ -44,6 +44,66 @@
         "task-nback_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
+    "Oddball_AP_SBRef":[
+        "func",
+        "task-oddball_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "Oddball_AP":[
+        "func",
+        "task-oddball_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "Oddball_PA_SBRef":[
+        "func",
+        "task-oddball_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "Oddball_PA":[
+        "func",
+        "task-oddball_acq-PA_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP_SBRef":[
+        "func",
+        "task-MSIT_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP":[
+        "func",
+        "task-MSIT_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_SBRef":[
+        "func",
+        "task-MSIT_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA":[
+        "func",
+        "task-MSIT_acq-PA_bold",
+        "UNASSIGNED"
+    ],
+    "Gambling_AP_SBRef":[
+        "func",
+        "task-Gambling_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "Gambling_AP":[
+        "func",
+        "task-Gambling_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "Gambling_PA_SBRef":[
+        "func",
+        "task-Gambling_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "Gambling_PA":[
+        "func",
+        "task-Gambling_acq-PA_bold",
+        "UNASSIGNED"
+    ],
     "Localizer_aligned":[
         "EXCLUDE_BIDS_Directory",
         "EXCLUDE_BIDS_Name",
@@ -102,7 +162,7 @@
     "SpinEchoFieldMap_AP":[
         "fmap",
         "dir-AP_run-01_epi",
-        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold"]
+        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold","task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold","task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold"]
     ],
     "BIAS_BC":[
         "EXCLUDE_BIDS_Directory",
@@ -142,7 +202,7 @@
     "SpinEchoFieldMap_PA":[
         "fmap",
         "dir-PA_run-01_epi",
-        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold"]
+        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold","task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold","task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold"]
     ],
     "Auditory":[
 		"func",

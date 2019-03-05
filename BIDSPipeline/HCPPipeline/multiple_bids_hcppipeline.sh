@@ -19,7 +19,7 @@ echo ${SUBJ} ${SESS} ${MY_FULL_PATH}
   else
      if [ ${VERSION} == "regular" ];
      then  
-	 echo "${MY_FULL_PATH}/bids_hcppipeline.sh ${SUBJ} ${SESS} ${MY_FULL_PATH} ${OUTPUT}" | qsub -q long.q -o /nethome/amiklos/QSUB_OUTPUT/o_${SESS}.txt -e /nethome/amiklos/QSUB_OUTPUT/e_${SESS}.txt 
+	 echo "${MY_FULL_PATH}/bids_hcppipeline.sh ${SUBJ} ${SESS} ${MY_FULL_PATH} ${OUTPUT}" | qsub -q long.q@adrian -o /nethome/amiklos/QSUB_OUTPUT/o_${SESS}.txt -e /nethome/amiklos/QSUB_OUTPUT/e_${SESS}.txt 
 	 elif [ ${VERSION} == "alternate" ];
 	 then
 		if [ $k -eq 0 ];
