@@ -15,7 +15,7 @@ echo ${SUBJ} ${SESS}
   if [ -z "$SGE_ROOT" ]; then
      ${MY_FULL_PATH}/temp.dicom2bids.sh ${SUBJ} ${SESS} ${OUTPUT} $LINE </dev/null
   else
-	 echo "${MY_FULL_PATH}/temp.dicom2bids.sh ${SUBJ} ${SESS} ${OUTPUT}" | qsub -q all.q@adrian
+	 echo "${MY_FULL_PATH}/temp.dicom2bids.sh ${SUBJ} ${SESS} ${OUTPUT}" | qsub -q all.q@adrian -o /nethome/amiklos/QSUB_OUTPUT/o_${SESS}.txt -e /nethome/amiklos/QSUB_OUTPUT/e_${SESS}.txt 
   fi
 
 done < ${1}

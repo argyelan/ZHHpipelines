@@ -18,7 +18,8 @@
 
 #amiklos/hcppipeline:4:04 is genearted based on argyelan/HCPPIPELINE repository ZHHSpecific branch
 
-BIDS_DIR=/analysis/Argyelan/TEMPBIDS/BIDS
+#BIDS_DIR=/analysis/Argyelan/TEMPBIDS/BIDS
+BIDS_DIR=/analysis/Argyelan/TEMPBIDS/TEST555/BIDS
 
 #docker run -i --rm -v ${BIDS_DIR}/sub-${1}:/mybids/sub-${1}:ro -v ${4}:/output -v ${3}:/mycoeff:ro -v /usr/local/opt/freesurfer5.3/:/mylicense:ro -v ${BIDS_DIR}/dataset_description.json:/mybids/dataset_description.json -v ${BIDS_DIR}/.bidsignore:/mybids/.bidsignore  amiklos/hcppipeline:4.10 --n_cpus 12 --gdcoeffs /mycoeff/coeff.grad --license_key /mylicense/license.txt /mybids /output participant 
 
@@ -29,4 +30,4 @@ if [ ! -d ${4}/ses-${2} ]; then
 fi
 
 #docker run -i --rm -v ${BIDS_DIR}/sub-${1}/ses-${2}:/mybids/sub-${1}/ses-${2}:ro -v ${4}/ses-${2}:/output -v ${3}:/mycoeff:ro -v /usr/local/opt/freesurfer5.3/:/mylicense:ro -v ${BIDS_DIR}/dataset_description.json:/mybids/dataset_description.json -v ${BIDS_DIR}/.bidsignore:/mybids/.bidsignore  amiklos/hcppipeline:4.10 --n_cpus 12 --gdcoeffs /mycoeff/coeff.grad --stages fMRIVolume fMRISurface ICAFIX --license_key /mylicense/license.txt /mybids /output participant 
-docker run -i --rm -v ${BIDS_DIR}/sub-${1}/ses-${2}:/mybids/sub-${1}/ses-${2}:ro -v ${4}/ses-${2}:/output -v ${3}:/mycoeff:ro -v /usr/local/opt/freesurfer5.3/:/mylicense:ro -v ${BIDS_DIR}/dataset_description.json:/mybids/dataset_description.json -v ${BIDS_DIR}/.bidsignore:/mybids/.bidsignore  amiklos/hcppipeline:4.10 --n_cpus 2 --gdcoeffs /mycoeff/coeff.grad --license_key /mylicense/license.txt /mybids /output participant 
+docker run -i --rm -v ${BIDS_DIR}/sub-${1}/ses-${2}:/mybids/sub-${1}/ses-${2}:ro -v ${4}/ses-${2}:/output -v ${3}:/mycoeff:ro -v /usr/local/opt/freesurfer5.3/:/mylicense:ro -v ${BIDS_DIR}/dataset_description.json:/mybids/dataset_description.json -v ${BIDS_DIR}/.bidsignore:/mybids/.bidsignore  amiklos/hcppipeline:4.11 --n_cpus 2 --gdcoeffs /mycoeff/coeff.grad --license_key /mylicense/license.txt /mybids /output participant 
