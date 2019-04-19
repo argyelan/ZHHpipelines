@@ -74,6 +74,46 @@
         "task-MSIT_acq-AP_bold",
         "UNASSIGNED"
     ],
+    "MSIT_AP_rr":[
+        "func",
+        "task-MSIT_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_rr":[
+        "func",
+        "task-MSIT_acq-PA_bold",
+        "UNASSIGNED"
+    ],        
+    "MSIT_AP_RR":[
+        "func",
+        "task-MSIT_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_RR":[
+        "func",
+        "task-MSIT_acq-PA_bold",
+        "UNASSIGNED"
+    ], 
+    "MSIT_AP_rr_SBRef":[
+        "func",
+        "task-MSIT_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_rr_SBRef":[
+        "func",
+        "task-MSIT_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP_RR_SBRef":[
+        "func",
+        "task-MSIT_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_RR_SBRef":[
+        "func",
+        "task-MSIT_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
     "MSIT_PA_SBRef":[
         "func",
         "task-MSIT_acq-PA_sbref",
@@ -162,7 +202,7 @@
     "SpinEchoFieldMap_AP":[
         "fmap",
         "dir-AP_run-01_epi",
-        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold","task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold","task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold"]
+        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold"]
     ],
     "BIAS_BC":[
         "EXCLUDE_BIDS_Directory",
@@ -180,6 +220,11 @@
         "UNASSIGNED"
     ],
     "perfusion_color_map":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],    
+    "FieldMap_2mm":[
         "EXCLUDE_BIDS_Directory",
         "EXCLUDE_BIDS_Name",
         "UNASSIGNED"
@@ -202,7 +247,7 @@
     "SpinEchoFieldMap_PA":[
         "fmap",
         "dir-PA_run-01_epi",
-        ["task-rest_acq-PA_run-01_bold","task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold","task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold","task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold"]
+        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold"]
     ],
     "Auditory":[
 		"func",
