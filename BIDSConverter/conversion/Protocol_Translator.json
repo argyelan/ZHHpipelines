@@ -76,42 +76,52 @@
     ],
     "MSIT_AP_rr":[
         "func",
-        "task-MSIT_acq-AP_bold",
+        "task-MSITrr_acq-AP_bold",
         "UNASSIGNED"
     ],
     "MSIT_PA_rr":[
         "func",
-        "task-MSIT_acq-PA_bold",
+        "task-MSITrr_acq-PA_bold",
         "UNASSIGNED"
     ],        
     "MSIT_AP_RR":[
         "func",
-        "task-MSIT_acq-AP_bold",
+        "task-MSITRR_acq-AP_bold",
         "UNASSIGNED"
     ],
     "MSIT_PA_RR":[
         "func",
-        "task-MSIT_acq-PA_bold",
+        "task-MSITRR_acq-PA_bold",
+        "UNASSIGNED"
+    ], 
+    "MSIT_PA_RR_RR":[
+        "func",
+        "task-MSITRRRR_acq-PA_bold",
         "UNASSIGNED"
     ], 
     "MSIT_AP_rr_SBRef":[
         "func",
-        "task-MSIT_acq-AP_sbref",
+        "task-MSITrr_acq-AP_sbref",
         "UNASSIGNED"
     ],
     "MSIT_PA_rr_SBRef":[
         "func",
-        "task-MSIT_acq-PA_sbref",
+        "task-MSITrr_acq-PA_sbref",
         "UNASSIGNED"
     ],
     "MSIT_AP_RR_SBRef":[
         "func",
-        "task-MSIT_acq-AP_sbref",
+        "task-MSITRR_acq-AP_sbref",
         "UNASSIGNED"
     ],
     "MSIT_PA_RR_SBRef":[
         "func",
-        "task-MSIT_acq-PA_sbref",
+        "task-MSITRR_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_RR_RR_SBRef":[
+        "func",
+        "task-MSITRRRR_acq-PA_sbref",
         "UNASSIGNED"
     ],
     "MSIT_PA_SBRef":[
