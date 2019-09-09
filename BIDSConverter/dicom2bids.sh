@@ -46,6 +46,9 @@ case "$study" in
 "BAMM")
  docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
  ;;
+ "BORIS")
+ docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
+ ;;
 "imagerepo")
  docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
  docker run -i --rm -v ${MY_FULL_PATH}:/data -v ${BIDS}:/output --entrypoint=Rscript library/r-base --vanilla /data/configfiles/overwrite_events_auditory.R ${1} ${2} #/data and /output should be left since it is in the overwrite_events.R 
