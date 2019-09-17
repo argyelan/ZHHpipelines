@@ -209,6 +209,11 @@
         "T1w",
         "UNASSIGNED"
     ],
+    "T1w_MPR repeat":[
+        "anat",
+        "T1w",
+        "UNASSIGNED"
+    ],
     "SpinEchoFieldMap_AP":[
         "fmap",
         "dir-AP_run-01_epi",
