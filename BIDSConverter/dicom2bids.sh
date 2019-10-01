@@ -11,7 +11,7 @@ MY_PATH="`dirname \"$0\"`"
 MY_FULL_PATH=`readlink -f ${MY_PATH}`
 
 inline_find_session(){
-  for study in 3T 611 BAMM BORIS rTMS FE Clozapine Clozapine-ECT SPINS tACS imagerepo; do
+  for study in 3T 611 BAMM BORIS rTMS FE Clozapine Clozapine-ECT IPER SGAECT SPINS tACS imagerepo; do
     ls -1d /data/${study}/*${1} 2>/dev/null
   done
 }
