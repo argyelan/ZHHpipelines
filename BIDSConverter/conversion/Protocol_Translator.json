@@ -44,19 +44,14 @@
         "task-nback_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
-    "Tongue1":[
-        "func",
-        "task-tongue1_acq-AP_run-01_bold",
-        "UNASSIGNED"
-    ],
     "Tongue1_SBRef":[
         "func",
         "task-tongue1_acq-AP_run-01_sbref",
         "UNASSIGNED"
     ],
-    "Tongue2":[
+    "Tongue1":[
         "func",
-        "task-tongue2-AP_run-01_bold",
+        "task-tongue1_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
     "Tongue2_SBRef":[
@@ -64,14 +59,19 @@
         "task-tongue2_acq-AP_run-01_sbref",
         "UNASSIGNED"
     ],
-    "FingerTapping":[
+    "Tongue2":[
         "func",
-        "task-fingertapping-AP_run-01_bold",
+        "task-tongue2-AP_run-01_bold",
         "UNASSIGNED"
     ],
     "FingerTapping_SBRef":[
         "func",
         "task-fingertapping_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "FingerTapping":[
+        "func",
+        "task-fingertapping-AP_run-01_bold",
         "UNASSIGNED"
     ],
     "Oddball_AP_SBRef":[
