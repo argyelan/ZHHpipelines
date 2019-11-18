@@ -61,7 +61,7 @@
     ],
     "Tongue2":[
         "func",
-        "task-tongue2-AP_run-01_bold",
+        "task-tongue2_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
     "FingerTapping_SBRef":[
@@ -71,7 +71,7 @@
     ],
     "FingerTapping":[
         "func",
-        "task-fingertapping-AP_run-01_bold",
+        "task-fingertapping_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
     "Oddball_AP_SBRef":[
