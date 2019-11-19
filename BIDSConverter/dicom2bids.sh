@@ -11,7 +11,7 @@ MY_PATH="`dirname \"$0\"`"
 MY_FULL_PATH=`readlink -f ${MY_PATH}`
 
 inline_find_session(){
-  for study in 3T 611 BAMM rTMS FE Clozapine Clozapine-ECT SPINS tACS imagerepo; do
+  for study in 3T 611 BAMM BORIS rTMS FE Clozapine Clozapine-ECT IPER SGAECT SPINS tACS imagerepo; do
     ls -1d /data/${study}/*${1} 2>/dev/null
   done
 }
@@ -35,6 +35,9 @@ case "$study" in
  docker run -i --rm -v ${MY_FULL_PATH}:/data -v ${BIDS}:/output --entrypoint=Rscript library/r-base --vanilla /data/configfiles/overwrite_events.R ${1} ${2} #/data and /output should be left since it is in the overwrite_events.R 
  ;;
 "Clozapine")
+ docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
+ ;;
+"SGAECT")
  docker run -i --rm -v ${sessionpath}/dicom/:/input/dicom/${1}/${2}:ro -v ${BIDS}/:/output -v ${MY_FULL_PATH}:/derivatives -v ${TRASH}:/work  amiklos/bidskit:2.3 --indir=/input/dicom --outdir=/output #--overwrite
  ;;
 "Clozapine-ECT")
