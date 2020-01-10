@@ -44,6 +44,57 @@
         "task-nback_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
+
+        "N-back_AP_SBRef":[
+        "func",
+        "task-NbackFE_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "N-back_AP":[
+        "func",
+        "task-NbackFE_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "N-back_PA_SBRef":[
+        "func",
+        "task-NbackFE_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "N-back_PA":[
+        "func",
+        "task-NbackFE_acq-PA_bold",
+        "UNASSIGNED"
+    ],
+    "Tongue1":[
+        "func",
+        "task-tongue1_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "Tongue1_SBRef":[
+        "func",
+        "task-tongue1_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "Tongue2":[
+        "func",
+        "task-tongue2-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "Tongue2_SBRef":[
+        "func",
+        "task-tongue2_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "FingerTapping":[
+        "func",
+        "task-fingertapping-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "FingerTapping_SBRef":[
+        "func",
+        "task-fingertapping_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
     "Tongue1_SBRef":[
         "func",
         "task-tongue1_acq-AP_run-01_sbref",
@@ -192,6 +243,26 @@
     "dMRI_dir98_AP_SBRef":[
         "dwi",
         "run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "<MPR Thick Range>":[
+        "spec",
+        "run-01_spec",
+        "UNASSIGNED"
+    ],
+    "<MPR Thick Range[1]>":[
+        "spec",
+        "run-02_spec",
+        "UNASSIGNED"
+    ],
+    "<MPR Thick Range[2]>":[
+        "spec",
+        "run-03_spec",
+        "UNASSIGNED"
+    ],
+    "<MPR Thick Range[3]>":[
+        "spec",
+        "run-04_spec",
         "UNASSIGNED"
     ],
     "NEW_Resting_AP":[
