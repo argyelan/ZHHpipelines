@@ -44,6 +44,7 @@
         "task-nback_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
+
         "N-back_AP_SBRef":[
         "func",
         "task-NbackFE_acq-AP_sbref",
@@ -92,6 +93,146 @@
     "FingerTapping_SBRef":[
         "func",
         "task-fingertapping_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "Tongue1_SBRef":[
+        "func",
+        "task-tongue1_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "Tongue1":[
+        "func",
+        "task-tongue1_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "Tongue2_SBRef":[
+        "func",
+        "task-tongue2_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "Tongue2":[
+        "func",
+        "task-tongue2_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "FingerTapping_SBRef":[
+        "func",
+        "task-fingertapping_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "FingerTapping":[
+        "func",
+        "task-fingertapping_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "Oddball_AP_SBRef":[
+        "func",
+        "task-oddball_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "Oddball_AP":[
+        "func",
+        "task-oddball_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "Oddball_PA_SBRef":[
+        "func",
+        "task-oddball_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "Oddball_PA":[
+        "func",
+        "task-oddball_acq-PA_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP_SBRef":[
+        "func",
+        "task-MSIT_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP":[
+        "func",
+        "task-MSIT_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP_rr":[
+        "func",
+        "task-MSITrr_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_rr":[
+        "func",
+        "task-MSITrr_acq-PA_bold",
+        "UNASSIGNED"
+    ],        
+    "MSIT_AP_RR":[
+        "func",
+        "task-MSITRR_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_RR":[
+        "func",
+        "task-MSITRR_acq-PA_bold",
+        "UNASSIGNED"
+    ], 
+    "MSIT_PA_RR_RR":[
+        "func",
+        "task-MSITRRRR_acq-PA_bold",
+        "UNASSIGNED"
+    ], 
+    "MSIT_AP_rr_SBRef":[
+        "func",
+        "task-MSITrr_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_rr_SBRef":[
+        "func",
+        "task-MSITrr_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_AP_RR_SBRef":[
+        "func",
+        "task-MSITRR_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_RR_SBRef":[
+        "func",
+        "task-MSITRR_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_RR_RR_SBRef":[
+        "func",
+        "task-MSITRRRR_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA_SBRef":[
+        "func",
+        "task-MSIT_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "MSIT_PA":[
+        "func",
+        "task-MSIT_acq-PA_bold",
+        "UNASSIGNED"
+    ],
+    "Gambling_AP_SBRef":[
+        "func",
+        "task-Gambling_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "Gambling_AP":[
+        "func",
+        "task-Gambling_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "Gambling_PA_SBRef":[
+        "func",
+        "task-Gambling_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "Gambling_PA":[
+        "func",
+        "task-Gambling_acq-PA_bold",
         "UNASSIGNED"
     ],
     "Localizer_aligned":[
@@ -169,10 +310,15 @@
         "T1w",
         "UNASSIGNED"
     ],
+    "T1w_MPR_repeat":[
+        "anat",
+        "T1w",
+        "UNASSIGNED"
+    ],
     "SpinEchoFieldMap_AP":[
         "fmap",
         "dir-AP_run-01_epi",
-        ["task-rest_acq-AP_run-01_bold","task-nback_acq-AP_run-01_bold"]
+        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-tongue1_acq-AP_run-01_bold","task-tongue2_acq-AP_run-01_bold","task-fingertapping_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold"]
     ],
     "BIAS_BC":[
         "EXCLUDE_BIDS_Directory",
@@ -190,6 +336,11 @@
         "UNASSIGNED"
     ],
     "perfusion_color_map":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],    
+    "FieldMap_2mm":[
         "EXCLUDE_BIDS_Directory",
         "EXCLUDE_BIDS_Name",
         "UNASSIGNED"
@@ -212,6 +363,16 @@
     "SpinEchoFieldMap_PA":[
         "fmap",
         "dir-PA_run-01_epi",
-        ["task-rest_acq-PA_run-01_bold"]
-    ]
+        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-tongue1_acq-AP_run-01_bold", "task-tongue2_acq-AP_run-01_bold", "task-fingertapping_acq-AP_run-01_bold","task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold"]
+    ],
+    "Auditory":[
+		"func",
+		"task-auditory_acq-AP_run-01_bold",
+		"UNASSIGNED"
+	],
+	"Auditory_SBRef":[
+		"func",
+        "task-auditory_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+	]
 }
