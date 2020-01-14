@@ -7,7 +7,7 @@
     "NEW_Resting_PA_SBRef":[
         "func",
         "task-rest_acq-PA_run-01_sbref",
-        "UNASSIGNED"
+	"UNASSIGNED"
     ],
     "AAHScout_MPR_tra":[
         "EXCLUDE_BIDS_Directory",
@@ -42,6 +42,26 @@
     "N-BACK":[
         "func",
         "task-nback_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "N-back_AP_SBRef":[
+        "func",
+        "task-NbackFE_acq-AP_sbref",
+        "UNASSIGNED"
+    ],
+    "N-back_AP":[
+        "func",
+        "task-NbackFE_acq-AP_bold",
+        "UNASSIGNED"
+    ],
+    "N-back_PA_SBRef":[
+        "func",
+        "task-NbackFE_acq-PA_sbref",
+        "UNASSIGNED"
+    ],
+    "N-back_PA":[
+        "func",
+        "task-NbackFE_acq-PA_bold",
         "UNASSIGNED"
     ],
     "Tongue1_SBRef":[
@@ -192,6 +212,26 @@
     "dMRI_dir98_AP_SBRef":[
         "dwi",
         "run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "_MPR_Thick_Range_":[
+        "spec",
+        "run-01_spec",
+        "UNASSIGNED"
+    ],
+    "_MPR_Thick_Range[1]_":[
+        "spec",
+        "run-02_spec",
+        "UNASSIGNED"
+    ],
+    "_MPR_Thick_Range[2]_":[
+        "spec",
+        "run-03_spec",
+        "UNASSIGNED"
+    ],
+    "_MPR_Thick_Range[3]_":[
+        "spec",
+        "run-04_spec",
         "UNASSIGNED"
     ],
     "NEW_Resting_AP":[
