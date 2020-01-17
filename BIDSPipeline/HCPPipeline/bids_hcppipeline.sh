@@ -18,6 +18,7 @@
 
 #amiklos/hcppipeline:4:04 is genearted based on argyelan/HCPPIPELINE repository ZHHSpecific branch
 
+#BIDS_DIR=/data/BIDS
 BIDS_DIR=/data/BIDS
 
 #docker run -i --rm -v ${BIDS_DIR}/sub-${1}:/mybids/sub-${1}:ro -v ${4}:/output -v ${3}:/mycoeff:ro -v /usr/local/opt/freesurfer5.3/:/mylicense:ro -v ${BIDS_DIR}/dataset_description.json:/mybids/dataset_description.json -v ${BIDS_DIR}/.bidsignore:/mybids/.bidsignore  amiklos/hcppipeline:4.10 --n_cpus 12 --gdcoeffs /mycoeff/coeff.grad --license_key /mylicense/license.txt /mybids /output participant 
