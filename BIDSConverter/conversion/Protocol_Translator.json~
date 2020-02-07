@@ -346,7 +346,7 @@
     ],
     "can_neuromelanin":[
         "neuromelanin",
-        "task-rest_acq-reg_neuromelanin",
+        "run-01_neuromelanin",
         "UNASSIGNED"
     ]
 }
