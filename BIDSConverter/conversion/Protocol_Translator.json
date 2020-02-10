@@ -224,16 +224,6 @@
         "run-02_spec",
         "UNASSIGNED"
     ],
-    "_MPR_Thick_Range[2]_":[
-        "spec",
-        "run-03_spec",
-        "UNASSIGNED"
-    ],
-    "_MPR_Thick_Range[3]_":[
-        "spec",
-        "run-04_spec",
-        "UNASSIGNED"
-    ],
     "NEW_Resting_AP":[
         "func",
         "task-rest_acq-AP_run-01_bold",
