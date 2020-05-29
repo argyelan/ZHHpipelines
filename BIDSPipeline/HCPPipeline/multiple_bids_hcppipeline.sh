@@ -26,7 +26,7 @@ echo ${SUBJ} ${SESS} ${MY_FULL_PATH}
 		then
 			echo "${MY_FULL_PATH}/alt_bids_hcppipeline.sh ${SUBJ} ${SESS} ${MY_FULL_PATH} ${OUTPUT}" | qsub -q long.q@adrian -o /nethome/amiklos/QSUB_OUTPUT/o_${SESS}.txt -e /nethome/amiklos/QSUB_OUTPUT/e_${SESS}.txt 
 		else
-			echo "${MY_FULL_PATH}/alt_bids_hcppipeline.sh ${SUBJ} ${SESS} ${MY_FULL_PATH} ${OUTPUT}" | qsub -q long.q@moon -o /nethome/amiklos/QSUB_OUTPUT/o_${SESS}.txt -e /nethome/amiklos/QSUB_OUTPUT/e_${SESS}.txt 
+			echo "${MY_FULL_PATH}/alt_bids_hcppipeline.sh ${SUBJ} ${SESS} ${MY_FULL_PATH} ${OUTPUT}" | qsub -q long.q@adrian -o /nethome/amiklos/QSUB_OUTPUT/o_${SESS}.txt -e /nethome/amiklos/QSUB_OUTPUT/e_${SESS}.txt 
 		fi	
 	 fi
   fi
