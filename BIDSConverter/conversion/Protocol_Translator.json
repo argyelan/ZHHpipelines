@@ -4,10 +4,35 @@
         "EXCLUDE_BIDS_Name",
         "UNASSIGNED"
     ],
+    "relCBF":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],
+    "ep2d_pcasl_ve11c":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],
+    "rfMRI_REST_AP_SBRef":[
+        "func",
+        "task-rest_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "rfMRI_REST_PA_SBRef":[
+        "func",
+        "task-rest_acq-PA_run-01_sbref",
+        "UNASSIGNED"
+    ],
     "NEW_Resting_PA_SBRef":[
         "func",
         "task-rest_acq-PA_run-01_sbref",
 	"UNASSIGNED"
+    ],
+    "New_Resting_PA_PMU":[
+        "func",
+        "task-rest_acq-PA_run-01_sbref",
+        "UNASSIGNED"
     ],
     "AAHScout_MPR_tra":[
         "EXCLUDE_BIDS_Directory",
@@ -29,6 +54,16 @@
         "run-01_dwi",
         "UNASSIGNED"
     ],
+    "DWI_dir98_AP":[
+        "dwi",
+        "run-01_dwi",
+        "UNASSIGNED"
+    ],
+     "DWI_PA_topup":[
+        "dwi",
+        "run-01_dwi",
+        "UNASSIGNED"
+    ],
     "NEW_Resting_PA":[
         "func",
         "task-rest_acq-PA_run-01_bold",
@@ -39,6 +74,40 @@
         "task-nback_acq-AP_run-01_sbref",
         "UNASSIGNED"
     ],
+    "rfMRI_REST_AP":[
+        "func",
+        "task-rest_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "rfMRI_REST_PA":[
+        "func",
+        "task-rest_acq-PA_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "rfMRI_EA_Task_Run_AP_SBRef":[
+        "func",
+        "task-EA_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "rfMRI_EA_Task_Run-AP":[
+        "func",
+        "task-EA_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "rfMRI_EA_Task_Run_PA_SBRef":[
+        "func",
+        "task-EA_acq-PA_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "rfMRI_EA_Task_Run-PA":[
+        "func",
+        "task-EA_acq-PA_run-01_bold",
+        "UNASSIGNED"
+    ],
+    "N-BACK_SBRef":[
+        "func",
+        "task-nback_acq-AP_run-01_sbref",
+        "UNASSIGNED"
     "N-BACK":[
         "func",
         "task-nback_acq-AP_run-01_bold",
@@ -214,6 +283,16 @@
         "run-01_sbref",
         "UNASSIGNED"
     ],
+    "DWI_dir98_AP_SBRef":[
+        "dwi",
+        "run-01_sbref",
+        "UNASSIGNED"
+    ],
+     "DWI_PA_topup_SBRef":[
+        "dwi",
+        "run-01_topup_sbref",
+        "UNASSIGNED"
+    ],
     "_MPR_Thick_Range_":[
         "spec",
         "run-01_spec",
@@ -229,12 +308,22 @@
         "task-rest_acq-AP_run-01_bold",
         "UNASSIGNED"
     ],
+    "New_Resting_AP":[
+        "func",
+        "task-rest_acq-AP_run-01_bold",
+        "UNASSIGNED"
+    ],
     "BOLD_SB_SE_AP":[
         "EXCLUDE_BIDS_Directory",
         "EXCLUDE_BIDS_Name",
         "UNASSIGNED"
     ],
     "NEW_Resting_AP_SBRef":[
+        "func",
+        "task-rest_acq-AP_run-01_sbref",
+        "UNASSIGNED"
+    ],
+    "New_Resting_AP_PMU":[
         "func",
         "task-rest_acq-AP_run-01_sbref",
         "UNASSIGNED"
@@ -254,6 +343,11 @@
         "EXCLUDE_BIDS_Name",
         "UNASSIGNED"
     ],
+     "DWI_dir98_AP_TRACEW":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],
     "Perfusion_Weighted":[
         "EXCLUDE_BIDS_Directory",
         "EXCLUDE_BIDS_Name",
@@ -269,15 +363,35 @@
         "T1w",
         "UNASSIGNED"
     ],
+    "T1w_MPR_eyes_closed":[
+        "anat",
+        "T1w",
+        "UNASSIGNED"
+    ],
+    "T1w_MPR_eyes_closed ":[
+        "anat",
+        "T1w",
+        "UNASSIGNED"
+    ],
+    "T2w_SPC_eyes_closed":[
+        "anat",
+        "T2w",
+        "UNASSIGNED"
+    ],
     "T1w_MPR_repeat":[
         "anat",
         "T1w",
         "UNASSIGNED"
     ],
+    "T1w_MPR_Rpt":[
+        "anat",
+        "T1wRpt",
+        "UNASSIGNED"
+    ],
     "SpinEchoFieldMap_AP":[
         "fmap",
         "dir-AP_run-01_epi",
-        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-tongue1_acq-AP_run-01_bold","task-tongue2_acq-AP_run-01_bold","task-fingertapping_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold", "task-NbackFE_acq-AP_run-01_bold", "task-NbackFE_acq-PA_run-01_bold", "task-NbackFE_acq-AP_run-02_bold", "task-NbackFE_acq-PA_run-02_bold", "task-NbackFE_acq-AP_run-03_bold", "task-NbackFE_acq-PA_run-03_bold"]
+        ["rfMRI_EA_Task_Run_AP","rfMRI_EA_Task_Run_PA","rfMRI_REST_AP","rfMRI_REST_PA","task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-tongue1_acq-AP_run-01_bold","task-tongue2_acq-AP_run-01_bold","task-fingertapping_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold", "task-NbackFE_acq-AP_run-01_bold", "task-NbackFE_acq-PA_run-01_bold", "task-NbackFE_acq-AP_run-02_bold", "task-NbackFE_acq-PA_run-02_bold", "task-NbackFE_acq-AP_run-03_bold", "task-NbackFE_acq-PA_run-03_bold"]
     ],
     "BIAS_BC":[
         "EXCLUDE_BIDS_Directory",
@@ -314,6 +428,21 @@
         "task-rest_run-01_asl",
         "UNASSIGNED"
     ],    
+    "asl_2d_tra":[
+        "func",
+        "task-rest_run-01_asl",
+        "UNASSIGNED"
+    ],  
+      "relCBF":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],
+      "ep2d_pcasl_ve11c":[
+        "EXCLUDE_BIDS_Directory",
+        "EXCLUDE_BIDS_Name",
+        "UNASSIGNED"
+    ],
     "perf_color_map":[
        "EXCLUDE_BIDS_Directory",
        "EXCLUDE_BIDS_Name",
@@ -322,7 +451,7 @@
     "SpinEchoFieldMap_PA":[
         "fmap",
         "dir-PA_run-01_epi",
-        ["task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-tongue1_acq-AP_run-01_bold", "task-tongue2_acq-AP_run-01_bold", "task-fingertapping_acq-AP_run-01_bold","task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold", "task-NbackFE_acq-AP_run-01_bold", "task-NbackFE_acq-PA_run-01_bold", "task-NbackFE_acq-AP_run-02_bold", "task-NbackFE_acq-PA_run-02_bold", "task-NbackFE_acq-AP_run-03_bold", "task-NbackFE_acq-PA_run-03_bold"]
+        ["rfMRI_REST_AP","rfMRI_REST_PA","task-rest_acq-AP_run-01_bold","task-rest_acq-PA_run-01_bold","task-nback_acq-AP_run-01_bold","task-auditory_acq-AP_run-01_bold", "task-tongue1_acq-AP_run-01_bold", "task-tongue2_acq-AP_run-01_bold", "task-fingertapping_acq-AP_run-01_bold","task-oddball_acq-AP_run-01_bold", "task-oddball_acq-PA_run-01_bold", "task-oddball_acq-AP_run-02_bold", "task-oddball_acq-PA_run-02_bold", "task-oddball_acq-AP_run-03_bold", "task-oddball_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-01_bold", "task-MSIT_acq-PA_run-01_bold", "task-MSIT_acq-AP_run-02_bold", "task-MSIT_acq-PA_run-02_bold", "task-MSIT_acq-AP_run-03_bold", "task-MSIT_acq-PA_run-03_bold", "task-MSIT_acq-AP_run-04_bold", "task-MSIT_acq-PA_run-04_bold", "task-Gambling_acq-AP_run-01_bold", "task-Gambling_acq-PA_run-01_bold", "task-Gambling_acq-AP_run-02_bold", "task-Gambling_acq-PA_run-02_bold", "task-Gambling_acq-AP_run-03_bold", "task-Gambling_acq-PA_run-03_bold", "task-NbackFE_acq-AP_run-01_bold", "task-NbackFE_acq-PA_run-01_bold", "task-NbackFE_acq-AP_run-02_bold", "task-NbackFE_acq-PA_run-02_bold", "task-NbackFE_acq-AP_run-03_bold", "task-NbackFE_acq-PA_run-03_bold"]
     ],
     "Auditory":[
 	"func",
